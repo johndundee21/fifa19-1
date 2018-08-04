@@ -1,0 +1,40 @@
+.buyPager {
+  .imageView {
+    width: 100%;
+    img {
+      width: 100%;
+    }
+  }
+  .infoBoxer {
+    padding: 50px 30px;
+    width: 100%;
+  }
+
+}
+
+.searchResultLines {
+  position: relative;
+  .resultBox {
+    padding: 15px;
+    margin-top: 6px;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    color: $color-dark;
+    background-color: $oc-white;
+    border-radius: 5px;
+  }
+}
+
+.userNameCard {
+  @include flex;
+  @include align-items(center);
+  .image {
+    margin: 0 20px 0 0;
+    width: 75px;
+    img {
+      width: 75px;
+    }
+  }
+}

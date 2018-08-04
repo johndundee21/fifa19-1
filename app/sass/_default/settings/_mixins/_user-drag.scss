@@ -1,0 +1,6 @@
+// main: mixins.bootstrap
+
+// User Select
+@mixin dragable($vars) {
+  -webkit-user-drag: $vars;
+}
