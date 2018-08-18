@@ -1,0 +1,112 @@
+.news-container {
+  .news-block {
+    margin: 0 0 30px 0;
+    max-height: 350px;
+    position: relative;
+    overflow: hidden;
+
+    .likes-area {
+      padding: 10px 20px;
+      @include flex-all;
+      font-size: 16px;
+      color: $oc-white;
+      i {
+        margin: 0 7px 0 0;
+      }
+    }
+
+    .date-area {
+        @include flex-all;
+        padding: 12px 15px;
+        color: $oc-white;
+        background-color: $color-pink;
+        height: 35px;
+        text-decoration: none;
+        position: relative;
+        transition: all .2s ease;
+        &:before {
+          content: '';
+          background-color: $color-pink;
+          width: 35px;
+          height: 35px;
+          transform: skewX(-20deg);
+          position: absolute;
+          transition: all .2s ease;
+          left: -22px;
+        }
+        &:hover {
+          background-color: lighten($color-pink, 15%);
+          &:before {
+            background-color: lighten($color-pink, 15%);
+          }
+        }
+        i {
+          margin: 0  0 0 11px;
+        }
+    }
+
+
+    .imager {
+      width: 100%;
+      height: 100%;
+      border-radius: 5px;
+      overflow: hidden;
+      position: relative;
+      img {
+        display: block;
+        width: 100%;
+        max-height: 100%;
+      }
+      &:after {
+        content: '';
+        @include flex-all;
+        @include size(100%);
+        position: absolute;
+        top: 0;
+        left: 0;
+        background-color: rgba($oc-black, .25);
+      }
+    }
+    .inside-text {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      .title-line {
+        padding: 15px 0 10px 0;
+        transition: all .2s linear;
+      }
+      .text-line {
+        padding: 10px;
+
+        position: absolute;
+        bottom: 0;
+        transition: all .2s ease;
+        transform: translateY(0);
+        .title {
+          font-size: 27px;
+          line-height: 30px;
+          padding: 10px 0 10px;
+          color: $oc-white;
+        }
+        .message {
+          position: absolute;
+          top: 100%;
+          line-height: 20px;
+          font-size: 16px;
+          color: $oc-white;
+        }
+      }
+    }
+    &:hover {
+      .text-line {
+        bottom: 100%;
+        transform: translateY(100%);
+      }
+      .title-line {
+        opacity: 0;
+      }
+    }
+  }
+}

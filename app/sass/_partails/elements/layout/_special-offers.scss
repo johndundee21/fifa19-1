@@ -1,0 +1,165 @@
+.special-offers {
+  padding: 30px 0;
+  margin-top: -170px;
+  position: relative;
+  @include max-min(max 1200px) {
+    margin-top: 0px;
+  }
+  .control-special-offers {
+    position: absolute;
+    top: 90px;
+    left: 0;
+    width: 100%;
+    @include max-min(max 1200px) {
+      top: 50%;
+      transform: translateY(-50%);
+    }
+    .special-offer-btn {
+      position: absolute;
+      background-color: transparent;
+      border: none;
+      @include flex-all;
+      font-size: 35px;
+      outline: none;
+      cursor: pointer;
+      transition: all .2s ease;
+      &:hover {
+        color: $color-gray;
+      }
+
+
+      &.prev-btn {
+        left: -10px;
+      }
+      &.next-btn {
+        right: -10px;
+      }
+    }
+  }
+  .special-of-list {
+    padding: 0 30px;
+    .col-md-6 {
+      outline: none;
+    }
+  }
+  .special-offer {
+    color: $oc-white;
+    border-radius: 5px;
+    background-color: rgba(#141D24, .75);
+    box-shadow: 0px 0px 22px 0px rgba(#141D24, .45);
+
+    overflow: hidden;
+    position: relative;
+
+    .timer-area {
+      padding: 7px 20px;
+      width: 100%;
+      @include flex-all;
+      background-color: $color-pink;
+      color: $oc-white;
+      .timer {
+        @include flex;
+        .date {
+          padding: 10px;
+          font-size: 18px;
+          &:before {
+            content: ':';
+            display: inline-flex;
+            margin: 0 20px 0 0;
+
+          }
+          &:first-child {
+            &:before {
+              display: none;
+            }
+          }
+        }
+      }
+    }
+
+    .buy-area {
+      padding: 10px;
+      @include flex;
+      @include flex-direction(column);
+
+      .prices {
+        padding: 0 0 7px 0;
+        @include flex;
+        @include align-items(center);
+        @include justify-content(space-between);
+      }
+      .price {
+        font-size: 20px;
+        color: $oc-white;
+      }
+      &.old-price {
+
+      }
+    }
+    .rank-area {
+      padding: 15px;
+      @include flex;
+
+      .image {
+        flex: 0 0 160px;
+        @include flex;
+        @include align-items(center);
+        @include justify-content(center);
+        @include flex-direction(column);
+        .imager {
+          width: 100%;
+          @include flex-all;
+          padding: 5px 0;
+          img {
+            max-width: 100%;
+          }
+        }
+      }
+      .text {
+        padding-left: 10px;
+        .title {
+          font-size: 29px;
+        }
+        .ranks {
+          padding-top: 10px;
+          @include flex;
+          @include flex-wrap(wrap);
+          .rank {
+            padding: 0 10px;
+            width: 50%;
+            @include flex;
+            b {
+              flex: 1;
+            }
+            .name {
+              flex: 1;
+              color: $color-yellow;
+            }
+            .line {
+              flex: initial;
+              margin: 0 15px 0 5px;
+            }
+          }
+        }
+      }
+      @include max-min(max $size-tablet) {
+        @include flex;
+        @include flex-direction(column);
+        .image {
+          @include flex;
+          @include flex-direction(column);
+          @include align-items(center);
+          @include justify-content(center);
+          margin: 0 0 20px 0;
+          flex: 0 0 100%;
+        }
+        .text {
+          padding: 20px 0 0 0;
+          .title {
+            font-size: 18px;
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,14 +1,15 @@
 .content-area {
-  padding: 140px 0;
+  padding: 60px 0;
   .content {
     background-color: $color-gray-2;
     border-radius: 12px;
     position: relative;
-    overflow: hidden;
+    //overflow: hidden;
     .padder {
       padding: 25px;
     }
     .fullContainer {
+
       background-color: rgba(20, 29, 36, 0.61);
       .titleLine {
         .title {

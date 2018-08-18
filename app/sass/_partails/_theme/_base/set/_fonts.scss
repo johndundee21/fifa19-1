@@ -3,6 +3,18 @@
 $font-default-path: "../sets/fonts/"; // Default
 
 // FontName import
+ $Bariol: 'Bariol';
+ $Bariol-Bold: 'Bariol-Bold';
+ $Bariol-Light: 'Bariol-Light';
+
+ $Bariol-path: "../sets/fonts/Bariol/";
+
+ @include font-face($Bariol, $Bariol-path, normal, 400, no-icon, ttf);
+ @include font-face($Bariol-Bold, $Bariol-path, normal, 400, no-icon, otf);
+ @include font-face($Bariol-Light, $Bariol-path, normal, 400, no-icon, otfs);
+// ---
+
+// FontName import
 // $FontName-Regular: 'FontName-Regular';
 // $FontName-Bold: 'FontName-Bold';
 // $FontName-Light: 'FontName-Light';

@@ -1,0 +1,66 @@
+.main-slider-slick {
+  width: 100%;
+  overflow: hidden;
+}
+.main-slider {
+  .bg-area {
+    position: absolute;
+    top: 55px;
+    left: 0;
+    width: 100%;
+    .image {
+      width: 100%;
+      img {
+        width: 100%;
+      }
+    }
+
+  }
+  .slider-content {
+    padding: 260px 0 60px 0;
+    height: 51vw;
+    outline: none;
+    @include max-min(max $size-tablet) {
+      height: initial;
+    }
+    .slider-title {
+      font-size: 26px;
+      font-family: Tahoma;
+      color: $color-pink;
+    }
+    .slider-message {
+      margin: 15px 0;
+      padding: 15px;
+      background-color: $color-pink;
+      color: $oc-white;
+      font-size: 15px;
+      line-height: 18px;
+    }
+  }
+}
+
+.slider-control-area {
+  @include flex;
+  @include justify-content(flex-end);
+}
+  .slider-control {
+    position: relative;
+    z-index: 5555;
+    @include flex;
+    @include justify-content(flex-end);
+    @include align-items(center);
+    .slider-btn  {
+      padding: 5px;
+      margin: 5px;
+      @include flex-all;
+      color: #8F8F8F;
+      font-size: 26px;
+      background-color: transparent;
+      border: none;
+      outline: none;
+      cursor: pointer;
+      &:hover {
+        color: lighten(#8F8F8F, 8%);
+      }
+    }
+  }
