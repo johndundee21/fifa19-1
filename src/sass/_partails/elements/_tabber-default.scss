@@ -1,0 +1,207 @@
+$radio-view-size: 27;
+
+.progress-line {
+  margin: 0 auto;
+  padding: 0 50px 20px 50px;
+  max-width: 700px;
+
+  @include max-min(max $size-tablet) {
+    padding: 10px;
+  }
+
+  @include flex;
+  @include justify-content(space-between);
+  .stager {
+    @include flex;
+    @include flex-direction(column);
+    @include align-items(center);
+    cursor: pointer;
+
+    @include max-min(max $size-tablet) {
+      padding: 0 5px;
+    }
+
+    .stage {
+      padding: 8px;
+      @include flex-all;
+      background-color: $color-gray-5;
+      box-shadow: inset 0 0 0 2px $oc-white;
+      color: $color-dark;
+      border-radius: 10px;
+      font-family: $Bariol;
+      font-size: 24px;
+      font-weight: 400;
+      @include size(55px);
+      margin-bottom: 10px;
+      @include max-min(max $size-tablet) {
+        @include size(35px);
+        border-radius: 5px;
+      }
+    }
+    .name {
+      color: #f8f9fa;
+      font-family: $Bariol;
+      font-size: 18px;
+      font-weight: 400;
+      letter-spacing: 1.42px;
+      @include max-min(max $size-tablet) {
+        font-size: 16px;
+        text-align: center;
+      }
+    }
+    &.-passed {
+      .stage {
+        color: $color-dark;
+        background-color: $oc-white;
+      }
+    }
+
+    &.-next {
+      opacity: .7;
+    }
+
+    &.-process {
+      opacity: 1;
+
+      .stage {
+        color: $oc-white;
+        background-color: $color-yellow;
+        box-shadow: unset;
+      }
+      .name {
+        color: $oc-white;
+        font-weight: 500;
+      }
+    }
+  }
+}
+
+.tab-default {
+  border-radius: inherit;
+  overflow: hidden;
+  position: relative;
+
+  .tabber {
+    height: 150px;
+    cursor: pointer;
+    @include flex;
+    @include align-items(center);
+    @include max-min(max $size-tablet) {
+      @include flex-direction(column);
+      height: auto;
+      @include align-items(flex-start);
+      padding: 20px 20px;
+    }
+
+    .tab-inside {
+      @include flex;
+      @include align-items(center);
+      flex: 1;
+      width: 100%;
+    }
+
+    .tabber-image {
+      @include flex-all;
+      padding: 50px 40px;
+      @include max-min(max $size-tablet) {
+        padding: 20px 20px 20px 20px;
+      }
+      img {
+        max-width: 200px;
+        display: block;
+        transform: scale(0.95);
+        transition: all .2s ease;
+      }
+    }
+    .tabber-text {
+      padding: 20px;
+      @include max-min(max $size-tablet) {
+        padding: 10px;
+      }
+    }
+    .title {
+      color: $color-dark;
+      font-family: $Bariol;
+      font-size: 20px;
+      font-weight: 600;
+      letter-spacing: .6px;
+      border-bottom: 15px;
+    }
+    .small {
+      color: #adb5bd;
+      font-family: $Bariol;
+      font-size: 18px;
+      font-weight: 400;
+      letter-spacing: .6px;
+    }
+    .tabber-radio {
+      padding: 20px;
+      margin-left: auto;
+      @include max-min(max $size-tablet) {
+        //margin-left: initial;
+        display: block;
+      }
+    }
+    .radio-view {
+      @include size(px($radio-view-size));
+      border-radius: 100%;
+      border: 2px solid $color-gray-2;
+      position: relative;
+      @include flex-all;
+      &:after {
+        content: '';
+        @include flex-all;
+        position: absolute;
+        @include size(px($radio-view-size - 12));
+        background-color: $color-gray-2;
+        border-radius: inherit;
+        opacity: 0;
+        transition: all .35s ease;
+      }
+    }
+    &:nth-child(odd) {
+      background-color: $color-gray-5;
+    }
+
+    &:hover {
+      background-color: rgba($color-gray-4, .2);
+      .radio-view {
+        &:after {
+          opacity: 1;
+        }
+      }
+      .tabber-image {
+        img {
+          transform: scale(1.05);
+        }
+      }
+    }
+
+  }
+}
+
+.form-row {
+  padding: 50px 0;
+  @include flex;
+  @include flex-direction(column);
+  > * {
+    margin-bottom: 15px;
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+  .line {
+    @include flex;
+    @include align-items(center);
+
+    .name {
+      flex: 0 0 150px;
+      width: 150px;
+      text-align: right;
+    }
+    .inside {
+      padding-left: 20px;
+      flex: 1;
+    }
+  }
+}

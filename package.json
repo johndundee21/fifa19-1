@@ -1,23 +1,59 @@
 {
-  "name": "project-kit",
+  "name": "webpacks",
   "version": "1.0.0",
-  "description": "project startup kit",
+  "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "server": "gulp"
+    "start-gulp": "gulp",
+    "build": "webpack --config webpack.prod.js --env.mode=prod"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://txucishvili@bitbucket.org/txucishvili/project-kit-start.git"
-  },
-  "author": "Toko",
+  "author": "",
   "license": "ISC",
-  "homepage": "https://bitbucket.org/txucishvili/project-kit-start#readme",
+  "dependencies": {
+    "animate.css": "^3.7.0",
+    "bourbon": "^5.1.0",
+    "family.scss": "^1.0.8",
+    "gridlex": "^2.7.1",
+    "include-media": "^1.4.9",
+    "jquery": "^3.3.1",
+    "pretty-checkbox": "^3.0.3",
+    "react": "^16.4.1",
+    "react-dom": "^16.4.1"
+  },
   "devDependencies": {
-    "browser-sync": "^2.23.6",
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.5",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-react": "^6.24.1",
+    "browser-sync": "^2.24.6",
+    "css-loader": "^1.0.0",
+    "extract-loader": "^2.0.1",
+    "extract-text-webpack-plugin": "^4.0.0-beta.0",
+    "file-loader": "^1.1.11",
     "gulp": "^3.9.1",
-    "gulp-sass": "^3.1.0",
-    "gulp-sourcemaps": "^2.6.4"
+    "gulp-sass": "^4.0.1",
+    "gulp-sourcemaps": "^2.6.4",
+    "html-webpack-plugin": "^3.2.0",
+    "jshint-loader": "^0.8.4",
+    "mini-css-extract-plugin": "^0.4.1",
+    "node-sass": "^4.9.2",
+    "postcss-loader": "^2.1.6",
+    "sass-loader": "^7.1.0",
+    "style-loader": "^0.22.0",
+    "stylelint": "^9.4.0",
+    "url-loader": "^1.0.1",
+    "webpack": "^4.16.5",
+    "webpack-cli": "^3.1.0",
+    "webpack-dev-server": "^3.1.5",
+    "babel": "^6.23.0",
+    "babel-cli": "^6.26.0",
+    "clean-webpack-plugin": "^0.1.19",
+    "express": "^4.16.3",
+    "gulp-browserify": "^0.5.1",
+    "gulp-nodemon": "^2.2.1",
+    "lodash": "^4.17.10",
+    "react": "^16.4.2",
+    "webpack-dev-middleware": "^3.2.0",
+    "webpack-hot-middleware": "^2.22.3"
   }
 }

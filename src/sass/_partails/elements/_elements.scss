@@ -1,0 +1,22 @@
+// main: ../style.bootstrap
+
+@import "tabber-default";
+
+@import "layout/fullLayout";
+@import "layout/menuLayout";
+
+@import "layout/main-slider";
+@import "layout/special-offers";
+@import "layout/news-container";
+
+@import "layout/headline";
+@import "layout/container";
+@import "layout/coverSide";
+
+@import "buy-page";
+@import "signUpPage";
+@import "loginPage";
+
+@import "./bootstrap_modification";
+
+@import "layout/footer-layout";

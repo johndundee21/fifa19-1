@@ -1,0 +1,79 @@
+.menu-layout {
+  position: fixed;
+  height: 100%;
+  width: 100%;
+  z-index: 9999995;
+  background-color: rgba($color-dark, .15);
+  opacity: 0;
+  visibility: hidden;
+  transition: all .3s .3s ease;
+
+  .menu-area {
+    height: 100%;
+    z-index: 555;
+    width: 290px;
+    transform: translateX(-100%);
+    transition: all .3s .3s ease;
+    background-color: $color-dark;
+    color: $oc-white;
+    position: relative;
+
+    .headline {
+      background-color: inherit;
+    }
+    .menu-close-btn {
+      padding: 15px;
+      @include flex-all;
+      background-color:$color-pink;
+      @include size(55px);
+      color: $oc-white;
+      font-size: 18px;
+      &:hover {
+        background-color: lighten($color-pink, 8%);
+      }
+    }
+    .menulist {
+      padding: 55px 0 0 0;
+      @include flex;
+      @include flex-direction(column);
+      li {
+        a {
+          color: $oc-white;
+          @include flex;
+          padding: 12px 25px;
+          font-weight: normal;
+          text-decoration: none;
+          &:hover {
+            color: $color-pink;
+          }
+        }
+        &.login {
+          a {
+            background-color: $color-gray-4;
+          }
+        }
+        &.signup {
+          a {
+            background-color: $color-pink;
+          }
+        }
+      }
+    }
+  }
+  &.open {
+    transition: all .3s ease;
+    visibility: visible;
+    opacity: 1;
+    .menu-area {
+      transition: all .3s .3s ease;
+      transform: translateX(0);
+    }
+  }
+  .bg-close {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+}

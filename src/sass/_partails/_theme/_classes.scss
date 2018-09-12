@@ -1,0 +1,123 @@
+// main: theme.bootstrap
+
+.left {
+  @include left;
+}
+
+.right {
+  @include right;
+}
+
+// Flex
+
+.flex {
+  @include flex;
+  &.-full {
+    width: 100%;
+  }
+  &.-ac {
+    @include align-items(center);
+  }
+  &.-jc {
+    @include justify-content(center);
+  }
+  &.-flex {
+    @include flex-wrap(wrap);
+  }
+  .-l {
+    margin: 0 auto 0 0;
+  }
+  .-r {
+    margin: 0 0 0 auto;
+  }
+  .-c {
+    margin: 0 auto;
+  }
+}
+
+.flexi {
+  @include flex-align;
+}
+
+.flexc {
+  @include flex-all;
+}
+
+// Helpers
+
+.clearfix {
+  @include clearfix;
+}
+
+.btn-area {
+  padding: 10px 25px;
+  &.-wraper7 {
+    > * {
+      margin: 0 7px 7px 0;
+      &:last-child {
+        margin-right: 0;
+      }
+    }
+  }
+  &.-reset {
+    padding: 20px 0;
+  }
+}
+
+.pageTitler {
+  padding: 20px 0;
+  h1 {
+    color: $color-dark;
+  }
+}
+
+.pricer {
+  display: inline-flex;
+  @include align-items(center);
+  padding: 3px 16px;
+  background: $color-pink;
+  border-radius: 25px;
+  b {
+    margin: 0 0 0 5px;
+  }
+}
+
+.color {
+  &.-white {
+    color: $oc-white;
+  }
+}
+
+.message-box {
+  margin-bottom: 15px;
+  &:last-child {
+    margin-bottom: 0;
+  }
+  > * {
+    margin-bottom: 7px;
+
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+  .title {
+    color: $color-dark;
+    font-family: $Bariol;
+    font-size: em(18);
+    font-weight: 700;
+    letter-spacing: .7px;
+    line-height: 17px;
+  }
+  .message {
+    color: $color-dark;
+    font-family: $Bariol;
+    font-size: em(16);
+    font-weight: 400;
+    letter-spacing: .5px;
+    line-height: 26px;
+  }
+}
+
+br {
+  font-size: 0;
+}

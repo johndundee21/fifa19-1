@@ -1,0 +1,138 @@
+.headline {
+  background-color: $color-gray-2;
+  position: fixed;
+  width: 100%;
+  margin: 0 0 0px 0;
+  z-index: 5555;
+  box-shadow: 0 2px 20px 0 rgba($oc-black, .15);
+
+  .logo-area {
+    padding: 5px 25px;
+    max-width: 250px;
+    @include flex-all;
+    .logo {
+      @include flex-all;
+    }
+  }
+
+  .menu-btn {
+    padding: 15px;
+    @include flex-all;
+    background-color: $color-dark;
+    @include size(55px);
+    color: $oc-white;
+    font-size: 18px;
+    &:hover {
+      background-color: lighten($color-dark, 8%);
+    }
+
+    display: none;
+    @include max-min(max $size-tablet) {
+      @include flex-all;
+    }
+  }
+  .log-in-btn {
+    padding: 5px 30px;
+    border-radius: 35px;
+    border: 2px solid #ffffff;
+    color: #ffffff;
+    font-family: Bariol;
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 1.1px;
+    text-transform: uppercase;
+    transition: all .2s ease;
+    text-decoration: none;
+    &:hover {
+      background-color: $oc-white;
+      color: $color-blue-dark;
+    }
+    @include max-min(max $size-tablet) {
+      display: none;
+    }
+  }
+  .sign-up-btn {
+    margin: 0 0 0 50px;
+    @include flex-all;
+    padding: 15px;
+    color: $oc-white;
+    background-color: $color-pink;
+    height: 55px;
+    text-decoration: none;
+    position: relative;
+    transition: all .2s ease;
+    @include max-min(max $size-tablet) {
+      display: none;
+    }
+
+    &:before {
+      content: '';
+      background-color: $color-pink;
+      width: 35px;
+      height: 55px;
+      transform: skewX(-20deg);
+      position: absolute;
+      transition: all .2s ease;
+      left: -22px;
+    }
+
+
+    &:hover {
+      background-color: lighten($color-pink, 15%);
+      &:before {
+        background-color: lighten($color-pink, 15%);
+      }
+    }
+
+    i {
+      margin: 0 11px 0 0;
+    }
+
+    @include max-min(max $size-tablet) {
+      b {
+        display: none;
+      }
+      i {
+        margin: 0;
+      }
+    }
+  }
+
+  .middle-menu {
+    height: 100%;
+  }
+
+  .headlist {
+    @include flex;
+    height: 100%;
+    @include max-min(max $size-tablet) {
+      display: none;
+    }
+    li {
+      height: 100%;
+      border-bottom: 2px solid transparent;
+      transition: all .25s ease;
+      a {
+        height: 100%;
+        @include flex-all;
+        padding: 14px 10px;
+        font-family: $Bariol;
+        font-size: 17px;
+        color: $color-gray-4;
+        text-decoration: none;
+        &:hover {
+          color: $oc-white;
+        }
+      }
+      &:hover {
+        border-bottom: 2px solid rgba($color-gray-4, .7);
+      }
+      &.active {
+        border-bottom: 2px solid $oc-white;
+        a {
+          color: $oc-white;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,41 @@
+.btn {
+  .iconer {
+    @include flex;
+    @include flex-direction(column);
+    font-family: Bariol;
+    font-weight: 400;
+    text-transform: lowercase;
+    display: inline-flex;
+    line-height: 13px;
+    font-variant: small-caps;
+    b {
+      line-height: 12px;
+    }
+  }
+  &.-flexer {
+    @include flex;
+    @include align-items(center);
+    .txt {
+      margin: 0 0 0 10px;
+    }
+  }
+
+}
+
+.btns {
+  outline: none;
+  border: none;
+  padding: 16px 24px;
+  @include flex-all;
+
+  &.-simple {
+    border-radius: 5px;
+    background-color: $color-gray-5;
+    color: $color-dark;
+    font-family: $Bariol;
+    font-size: 20px;
+    font-weight: 400;
+    letter-spacing: 1.42px;
+    line-height: 17px;
+  }
+}

@@ -1,0 +1,24 @@
+.table {
+  &.-tmodify {
+    th, td {
+      vertical-align: middle;
+    }
+    &.-reset {
+      margin: 0;
+    }
+  }
+
+}
+.jumbotron {
+  &.-darker {
+    color: $color-dark;
+    background-color: $color-gray-4;
+    hr {
+      border-top-color: rgba(255, 255, 255, 0.17);
+    }
+  }
+
+}
+.white-form {
+  color: $oc-white;
+}
