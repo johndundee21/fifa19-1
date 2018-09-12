@@ -2,255 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b5ba6f7b-afab-4d3a-9b2f-b75cfdf21b7c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/server.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/index_old.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sell-2.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sell-3.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sell-4.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sell.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webpack.dev.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webpack.prod.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/buy_page-search.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/buy_page-search.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/buy_page-select.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/buy_page-select.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/buy_page.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/buy_page.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/css/lib/bootstrap/bootstrap-grid.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/css/lib/bootstrap/bootstrap-grid.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/css/lib/bootstrap/bootstrap-reboot.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/css/lib/bootstrap/bootstrap-reboot.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/css/lib/bootstrap/bootstrap.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/css/lib/bootstrap/bootstrap.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/css/lib/slick-theme.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/css/lib/slick-theme.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/css/lib/slick.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/css/lib/slick.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/css/libreries.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/css/libreries.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/css/maps/lib/bootstrap/bootstrap-grid.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/css/maps/lib/bootstrap/bootstrap-grid.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/css/maps/lib/bootstrap/bootstrap-reboot.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/css/maps/lib/bootstrap/bootstrap-reboot.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/css/maps/lib/bootstrap/bootstrap.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/css/maps/lib/bootstrap/bootstrap.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/css/maps/lib/slick-theme.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/css/maps/lib/slick-theme.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/css/maps/lib/slick.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/css/maps/lib/slick.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/css/maps/libreries.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/css/maps/libreries.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/css/maps/style.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/css/maps/style.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/img/20180621102255_39798.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/20180621102255_39798.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/img/Cristiano Ronaldo.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/Cristiano Ronaldo.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/img/Ellipse 1.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/Ellipse 1.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/img/Group 18.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/Group 18.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/img/Group 18.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/Group 18.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/img/Xbox_One_no_X.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/Xbox_One_no_X.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/img/cards.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/cards.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/img/footer-bg.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/footer-bg.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/img/forms/Cristiano Ronaldo.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/forms/Cristiano Ronaldo.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/img/forms/Luis Suárez.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/forms/Luis Suárez.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/img/forms/Messi.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/forms/Messi.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/img/forms/Neymar.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/forms/Neymar.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/img/ico/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/ico/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/img/icon.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/icon.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/img/info.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/info.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/img/paypal-logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/paypal-logo.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/img/pc-cdrom.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/pc-cdrom.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/img/playstation-4-logo-svg-vector.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/playstation-4-logo-svg-vector.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/img/ps4.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/ps4.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/img/slider.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/slider.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/img/test-area/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/test-area/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/img/xbox.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/xbox.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/js/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/script.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/js/slick.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/slick.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/js/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/sass/_default/_import.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/sass/_default/_import.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/sass/_default/_theme/_classes.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/sass/_default/_theme/_classes.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/sass/_default/_theme/_reset.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/sass/_default/_theme/_reset.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/sass/_default/_theme/_setup.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/sass/_default/_theme/_setup.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/sass/_default/_theme/_theme.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/sass/_default/_theme/_theme.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/sass/_default/lib/_lib.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/sass/_default/lib/_lib.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/sass/_default/lib/_open-color.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/sass/_default/lib/_open-color.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/sass/_default/settings/_functions/_contains.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/sass/_default/settings/_functions/_contains.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/sass/_default/settings/_functions/_font-face-url.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/sass/_default/settings/_functions/_font-face-url.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/sass/_default/settings/_functions/_functions.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/sass/_default/settings/_functions/_functions.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/sass/_default/settings/_functions/_functions_all.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/sass/_default/settings/_functions/_functions_all.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/sass/_default/settings/_functions/_px_convert.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/sass/_default/settings/_functions/_px_convert.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/sass/_default/settings/_mixins/_breakpoint.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/sass/_default/settings/_mixins/_breakpoint.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/sass/_default/settings/_mixins/_display.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/sass/_default/settings/_mixins/_display.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/sass/_default/settings/_mixins/_flexbox.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/sass/_default/settings/_mixins/_flexbox.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/sass/_default/settings/_mixins/_float.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/sass/_default/settings/_mixins/_float.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/sass/_default/settings/_mixins/_font-face.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/sass/_default/settings/_mixins/_font-face.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/sass/_default/settings/_mixins/_icon-config.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/sass/_default/settings/_mixins/_icon-config.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/sass/_default/settings/_mixins/_icon-new-variable-set.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/sass/_default/settings/_mixins/_icon-new-variable-set.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/sass/_default/settings/_mixins/_mixin.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/sass/_default/settings/_mixins/_mixin.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/sass/_default/settings/_mixins/_mixins.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/sass/_default/settings/_mixins/_mixins.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/sass/_default/settings/_mixins/_position-center.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/sass/_default/settings/_mixins/_position-center.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/sass/_default/settings/_mixins/_setup-reset.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/sass/_default/settings/_mixins/_setup-reset.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/sass/_default/settings/_mixins/_show-hide.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/sass/_default/settings/_mixins/_show-hide.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/sass/_default/settings/_mixins/_user-drag.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/sass/_default/settings/_mixins/_user-drag.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/sass/_default/settings/_mixins/_user-select.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/sass/_default/settings/_mixins/_user-select.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/sass/_partails/_func.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/sass/_partails/_func.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/sass/_partails/_partails.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/sass/_partails/_partails.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/sass/_partails/_settings/_functions.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/sass/_partails/_settings/_functions.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/sass/_partails/_settings/_mixins.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/sass/_partails/_settings/_mixins.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/sass/_partails/_style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/sass/_partails/_style.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/sass/_partails/_theme/_base/_base.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/sass/_partails/_theme/_base/_base.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/sass/_partails/_theme/_base/_new-config.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/sass/_partails/_theme/_base/_new-config.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/sass/_partails/_theme/_base/set/_fonts.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/sass/_partails/_theme/_base/set/_fonts.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/sass/_partails/_theme/_base/set/_icons.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/sass/_partails/_theme/_base/set/_icons.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/sass/_partails/_theme/_body.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/sass/_partails/_theme/_body.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/sass/_partails/_theme/_classes.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/sass/_partails/_theme/_classes.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/sass/_partails/_theme/_main.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/sass/_partails/_theme/_main.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/sass/_partails/_theme/_reset.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/sass/_partails/_theme/_reset.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/sass/_partails/_theme/_setup.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/sass/_partails/_theme/_setup.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/sass/_partails/_theme/_theme.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/sass/_partails/_theme/_theme.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/sass/_partails/_theme/top/_fullTop.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/sass/_partails/_theme/top/_fullTop.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/sass/_partails/_theme/top/_insideTop.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/sass/_partails/_theme/top/_insideTop.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/sass/_partails/_variable.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/sass/_partails/_variable.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/sass/_partails/basic/_basic.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/sass/_partails/basic/_basic.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/sass/_partails/basic/animations/_animations.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/sass/_partails/basic/animations/_animations.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/sass/_partails/components/_components.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/sass/_partails/components/_components.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/sass/_partails/components/buttons/.gitkeep" beforeDir="false" afterPath="$PROJECT_DIR$/src/sass/_partails/components/buttons/.gitkeep" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/sass/_partails/components/buttons/_button.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/sass/_partails/components/buttons/_button.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/sass/_partails/components/fields/.gitkeep" beforeDir="false" afterPath="$PROJECT_DIR$/src/sass/_partails/components/fields/.gitkeep" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/sass/_partails/components/inputs/.gitkeep" beforeDir="false" afterPath="$PROJECT_DIR$/src/sass/_partails/components/inputs/.gitkeep" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/sass/_partails/elements/_bootstrap_modification.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/sass/_partails/elements/_bootstrap_modification.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/sass/_partails/elements/_buy-page.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/sass/_partails/elements/_buy-page.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/sass/_partails/elements/_elements.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/sass/_partails/elements/_elements.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/sass/_partails/elements/_loginPage.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/sass/_partails/elements/_loginPage.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/sass/_partails/elements/_signUpPage.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/sass/_partails/elements/_signUpPage.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/sass/_partails/elements/layout/_container.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/sass/_partails/elements/layout/_container.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/sass/_partails/elements/layout/_coverSide.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/vendor.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/sass/_partails/elements/layout/_footer-layout.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/sass/_partails/elements/layout/_footer-layout.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/sass/_partails/elements/layout/_fullLayout.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/sass/_partails/elements/layout/_fullLayout.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/sass/_partails/elements/layout/_headline.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/sass/_partails/elements/layout/_headline.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/sass/_partails/elements/layout/_main-slider.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/sass/_partails/elements/layout/_main-slider.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/sass/_partails/elements/layout/_menuLayout.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/sass/_partails/elements/layout/_menuLayout.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/sass/_partails/elements/layout/_news-container.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/sass/_partails/elements/layout/_news-container.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/sass/_partails/elements/layout/_special-offers.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/sass/_partails/elements/layout/_special-offers.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/sass/_partails/widgets/_widgets.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/sass/_partails/widgets/_widgets.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/sass/lib/bootstrap/_alert.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/sass/lib/bootstrap/_alert.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/sass/lib/bootstrap/_badge.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/sass/lib/bootstrap/_badge.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/sass/lib/bootstrap/_breadcrumb.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/sass/lib/bootstrap/_breadcrumb.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/sass/lib/bootstrap/_button-group.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/sass/lib/bootstrap/_button-group.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/sass/lib/bootstrap/_buttons.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/sass/lib/bootstrap/_buttons.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/sass/lib/bootstrap/_card.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/sass/lib/bootstrap/_card.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/sass/lib/bootstrap/_carousel.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/sass/lib/bootstrap/_carousel.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/sass/lib/bootstrap/_close.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/sass/lib/bootstrap/_close.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/sass/lib/bootstrap/_code.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/sass/lib/bootstrap/_code.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/sass/lib/bootstrap/_custom-forms.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/sass/lib/bootstrap/_custom-forms.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/sass/lib/bootstrap/_dropdown.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/sass/lib/bootstrap/_dropdown.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/sass/lib/bootstrap/_forms.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/sass/lib/bootstrap/_forms.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/sass/lib/bootstrap/_functions.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/sass/lib/bootstrap/_functions.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/sass/lib/bootstrap/_grid.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/sass/lib/bootstrap/_grid.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/sass/lib/bootstrap/_images.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/sass/lib/bootstrap/_images.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/sass/lib/bootstrap/_input-group.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/sass/lib/bootstrap/_input-group.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/sass/lib/bootstrap/_jumbotron.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/sass/lib/bootstrap/_jumbotron.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/sass/lib/bootstrap/_list-group.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/sass/lib/bootstrap/_list-group.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/sass/lib/bootstrap/_media.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/sass/lib/bootstrap/_media.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/sass/lib/bootstrap/_mixins.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/sass/lib/bootstrap/_mixins.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/sass/lib/bootstrap/_modal.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/sass/lib/bootstrap/_modal.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/sass/lib/bootstrap/_nav.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/sass/lib/bootstrap/_nav.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/sass/lib/bootstrap/_navbar.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/sass/lib/bootstrap/_navbar.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/sass/lib/bootstrap/_pagination.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/sass/lib/bootstrap/_pagination.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/sass/lib/bootstrap/_popover.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/sass/lib/bootstrap/_popover.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/sass/lib/bootstrap/_print.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/sass/lib/bootstrap/_print.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/sass/lib/bootstrap/_progress.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/sass/lib/bootstrap/_progress.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/sass/lib/bootstrap/_reboot.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/sass/lib/bootstrap/_reboot.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/sass/lib/bootstrap/_root.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/sass/lib/bootstrap/_root.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/sass/lib/bootstrap/_tables.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/sass/lib/bootstrap/_tables.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/sass/lib/bootstrap/_tooltip.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/sass/lib/bootstrap/_tooltip.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/sass/lib/bootstrap/_transitions.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/sass/lib/bootstrap/_transitions.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/sass/lib/bootstrap/_type.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/sass/lib/bootstrap/_type.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/sass/lib/bootstrap/_utilities.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/sass/lib/bootstrap/_utilities.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/sass/lib/bootstrap/_variables.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/sass/lib/bootstrap/_variables.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/sass/lib/bootstrap/bootstrap-grid.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/sass/lib/bootstrap/bootstrap-grid.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/sass/lib/bootstrap/bootstrap-reboot.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/sass/lib/bootstrap/bootstrap-reboot.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/sass/lib/bootstrap/bootstrap.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/sass/lib/bootstrap/bootstrap.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/sass/lib/bootstrap/mixins/_alert.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/sass/lib/bootstrap/mixins/_alert.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/sass/lib/bootstrap/mixins/_background-variant.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/sass/lib/bootstrap/mixins/_background-variant.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/sass/lib/bootstrap/mixins/_badge.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/sass/lib/bootstrap/mixins/_badge.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/sass/lib/bootstrap/mixins/_border-radius.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/sass/lib/bootstrap/mixins/_border-radius.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/sass/lib/bootstrap/mixins/_box-shadow.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/sass/lib/bootstrap/mixins/_box-shadow.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/sass/lib/bootstrap/mixins/_breakpoints.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/sass/lib/bootstrap/mixins/_breakpoints.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/sass/lib/bootstrap/mixins/_buttons.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/sass/lib/bootstrap/mixins/_buttons.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/sass/lib/bootstrap/mixins/_caret.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/sass/lib/bootstrap/mixins/_caret.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/sass/lib/bootstrap/mixins/_clearfix.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/sass/lib/bootstrap/mixins/_clearfix.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/sass/lib/bootstrap/mixins/_float.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/sass/lib/bootstrap/mixins/_float.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/sass/lib/bootstrap/mixins/_forms.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/sass/lib/bootstrap/mixins/_forms.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/sass/lib/bootstrap/mixins/_gradients.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/sass/lib/bootstrap/mixins/_gradients.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/sass/lib/bootstrap/mixins/_grid-framework.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/sass/lib/bootstrap/mixins/_grid-framework.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/sass/lib/bootstrap/mixins/_grid.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/sass/lib/bootstrap/mixins/_grid.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/sass/lib/bootstrap/mixins/_hover.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/sass/lib/bootstrap/mixins/_hover.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/sass/lib/bootstrap/mixins/_image.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/sass/lib/bootstrap/mixins/_image.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/sass/lib/bootstrap/mixins/_list-group.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/sass/lib/bootstrap/mixins/_list-group.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/sass/lib/bootstrap/mixins/_lists.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/sass/lib/bootstrap/mixins/_lists.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/sass/lib/bootstrap/mixins/_nav-divider.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/sass/lib/bootstrap/mixins/_nav-divider.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/sass/lib/bootstrap/mixins/_pagination.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/sass/lib/bootstrap/mixins/_pagination.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/sass/lib/bootstrap/mixins/_reset-text.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/sass/lib/bootstrap/mixins/_reset-text.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/sass/lib/bootstrap/mixins/_resize.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/sass/lib/bootstrap/mixins/_resize.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/sass/lib/bootstrap/mixins/_screen-reader.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/sass/lib/bootstrap/mixins/_screen-reader.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/sass/lib/bootstrap/mixins/_size.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/sass/lib/bootstrap/mixins/_size.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/sass/lib/bootstrap/mixins/_table-row.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/sass/lib/bootstrap/mixins/_table-row.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/sass/lib/bootstrap/mixins/_text-emphasis.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/sass/lib/bootstrap/mixins/_text-emphasis.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/sass/lib/bootstrap/mixins/_text-hide.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/sass/lib/bootstrap/mixins/_text-hide.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/sass/lib/bootstrap/mixins/_text-truncate.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/sass/lib/bootstrap/mixins/_text-truncate.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/sass/lib/bootstrap/mixins/_transition.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/sass/lib/bootstrap/mixins/_transition.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/sass/lib/bootstrap/mixins/_visibility.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/sass/lib/bootstrap/mixins/_visibility.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/sass/lib/bootstrap/utilities/_align.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/sass/lib/bootstrap/utilities/_align.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/sass/lib/bootstrap/utilities/_background.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/sass/lib/bootstrap/utilities/_background.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/sass/lib/bootstrap/utilities/_borders.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/sass/lib/bootstrap/utilities/_borders.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/sass/lib/bootstrap/utilities/_clearfix.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/sass/lib/bootstrap/utilities/_clearfix.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/sass/lib/bootstrap/utilities/_display.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/sass/lib/bootstrap/utilities/_display.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/sass/lib/bootstrap/utilities/_embed.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/sass/lib/bootstrap/utilities/_embed.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/sass/lib/bootstrap/utilities/_flex.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/sass/lib/bootstrap/utilities/_flex.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/sass/lib/bootstrap/utilities/_float.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/sass/lib/bootstrap/utilities/_float.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/sass/lib/bootstrap/utilities/_position.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/sass/lib/bootstrap/utilities/_position.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/sass/lib/bootstrap/utilities/_screenreaders.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/sass/lib/bootstrap/utilities/_screenreaders.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/sass/lib/bootstrap/utilities/_shadows.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/sass/lib/bootstrap/utilities/_shadows.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/sass/lib/bootstrap/utilities/_sizing.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/sass/lib/bootstrap/utilities/_sizing.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/sass/lib/bootstrap/utilities/_spacing.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/sass/lib/bootstrap/utilities/_spacing.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/sass/lib/bootstrap/utilities/_text.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/sass/lib/bootstrap/utilities/_text.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/sass/lib/bootstrap/utilities/_visibility.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/sass/lib/bootstrap/utilities/_visibility.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/sass/lib/fontawsome/_animated.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/sass/lib/fontawsome/_bordered-pulled.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/sass/lib/fontawsome/_brands.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/sass/lib/fontawsome/_core.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/sass/lib/fontawsome/_fixed-width.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/sass/lib/fontawsome/_fontawesome.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/sass/lib/fontawsome/_icons.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/sass/lib/fontawsome/_larger.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/sass/lib/fontawsome/_list.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/sass/lib/fontawsome/_mixins.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/sass/lib/fontawsome/_regular.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/sass/lib/fontawsome/_rotated-flipped.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/sass/lib/fontawsome/_screen-reader.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/sass/lib/fontawsome/_shims.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/sass/lib/fontawsome/_solid.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/sass/lib/fontawsome/_stacked.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/sass/lib/fontawsome/_v4-shims.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/sass/lib/fontawsome/_variables.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/sass/lib/slick-theme.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/sass/lib/slick-theme.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/sass/lib/slick.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/sass/lib/slick.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/sass/libreries.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/sass/libreries.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/sass/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/sass/style.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/sets/_fonts/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/src/sets/_fonts/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/sets/_iconfont/Untitled1.sfd" beforeDir="false" afterPath="$PROJECT_DIR$/src/sets/_iconfont/Untitled1.sfd" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/sets/fonts/Bariol/Bariol.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/src/sass/_partails/components/inputs/_select.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/sets/fonts/Bariol/Bariol_Bold.otf" beforeDir="false" afterPath="$PROJECT_DIR$/src/sass/_partails/elements/_tabber-default.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/sets/fonts/Bariol/Bariol_Light.otf" beforeDir="false" afterPath="$PROJECT_DIR$/src/sass/_partails/elements/layout/_coverSide.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/sets/fonts/Bariol/Bariol_Thin.otf" beforeDir="false" afterPath="$PROJECT_DIR$/src/sets/fonts/Bariol/Bariol.ttf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/sets/fonts/webfonts/fa-brands-400.eot" beforeDir="false" afterPath="$PROJECT_DIR$/src/sets/fonts/Bariol/Bariol_Bold.otf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/sets/fonts/webfonts/fa-brands-400.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/src/sets/fonts/Bariol/Bariol_Light.otf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/sets/fonts/webfonts/fa-brands-400.woff" beforeDir="false" afterPath="$PROJECT_DIR$/src/sets/fonts/Bariol/Bariol_Thin.otf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/sign-in.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/sign-in.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/sign-up.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/sign-up.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/trash/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/src/trash/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gulpfile.js" beforeDir="false" afterPath="$PROJECT_DIR$/gulpfile.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sets/fonts/webfontsFont/fa-brands-400.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sets/fonts/webfontsFont/fa-brands-400.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sets/fonts/webfontsFont/fa-brands-400.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sets/fonts/webfontsFont/fa-brands-400.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sets/fonts/webfontsFont/fa-brands-400.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sets/fonts/webfontsFont/fa-regular-400.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sets/fonts/webfontsFont/fa-regular-400.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sets/fonts/webfontsFont/fa-regular-400.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sets/fonts/webfontsFont/fa-regular-400.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sets/fonts/webfontsFont/fa-regular-400.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sets/fonts/webfontsFont/fa-solid-900.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sets/fonts/webfontsFont/fa-solid-900.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sell-3.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/sell-3.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -421,16 +173,16 @@
               </provider>
             </entry>
           </file>
-          <file pinned="false" current-in-tab="false">
+          <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/sell-3.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="262">
-                  <caret line="92" column="46" selection-start-line="92" selection-start-column="46" selection-end-line="92" selection-end-column="46" />
+                <state relative-caret-position="172">
+                  <caret line="65" column="38" selection-start-line="65" selection-start-column="38" selection-end-line="65" selection-end-column="38" />
                 </state>
               </provider>
             </entry>
           </file>
-          <file pinned="false" current-in-tab="true">
+          <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/sell-4.html">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="144">
@@ -455,7 +207,7 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/sass/_partails/elements/_tabber-default.scss">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="406">
+                <state relative-caret-position="594">
                   <caret line="203" column="14" selection-start-line="203" selection-start-column="14" selection-end-line="203" selection-end-column="14" />
                   <folding>
                     <element signature="e#428#442#0" />
@@ -568,8 +320,8 @@
         <option value="$PROJECT_DIR$/src/sass/_partails/elements/_tabber-default.scss" />
         <option value="$PROJECT_DIR$/src/sell-2.html" />
         <option value="$PROJECT_DIR$/src/sass/_partails/components/inputs/_select.scss" />
-        <option value="$PROJECT_DIR$/src/sell-3.html" />
         <option value="$PROJECT_DIR$/src/sell-4.html" />
+        <option value="$PROJECT_DIR$/src/sell-3.html" />
       </list>
     </option>
   </component>
@@ -755,18 +507,18 @@
       <workItem from="1533540890299" duration="1544000" />
       <workItem from="1534517043392" duration="52000" />
       <workItem from="1536747818238" duration="167000" />
-      <workItem from="1536748116093" duration="15112000" />
+      <workItem from="1536748116093" duration="15342000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="37954000" />
+    <option name="totallyTimeSpent" value="38184000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1912" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.10432034" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.10432034" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -778,8 +530,8 @@
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
-      <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.49789253" weight="0.12676056" />
-      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5015806" side_tool="true" visible="true" weight="0.32936078" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="9" sideWeight="0.49736565" visible="true" weight="0.12567714" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50263435" side_tool="true" visible="true" weight="0.12567714" />
       <window_info anchor="bottom" id="TypeScript" order="11" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -1044,7 +796,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/sass/_partails/elements/_tabber-default.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="406">
+        <state relative-caret-position="594">
           <caret line="203" column="14" selection-start-line="203" selection-start-column="14" selection-end-line="203" selection-end-column="14" />
           <folding>
             <element signature="e#428#442#0" />
@@ -1084,17 +836,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/sell-3.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="262">
-          <caret line="92" column="46" selection-start-line="92" selection-start-column="46" selection-end-line="92" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/sell-4.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="144">
           <caret line="80" column="39" selection-start-line="80" selection-start-column="39" selection-end-line="80" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sell-3.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="172">
+          <caret line="65" column="38" selection-start-line="65" selection-start-column="38" selection-end-line="65" selection-end-column="38" />
         </state>
       </provider>
     </entry>
