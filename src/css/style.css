@@ -181,7 +181,7 @@ br {
   font-size: 0; }
 
 body {
-  background-color: #ADB5BD !important; }
+  background-color: #f0f4f7 !important; }
 
 .btn .iconer {
   display: -webkit-flex;
@@ -204,6 +204,17 @@ body {
   align-items: center; }
   .btn.-flexer .txt {
     margin: 0 0 0 10px; }
+
+.btn.btn-success {
+  color: #ffffff; }
+
+.btn.btn-warning {
+  color: #ffffff; }
+
+.btn.btn-light {
+  background-color: #dce2e8; }
+  .btn.btn-light:hover {
+    box-shadow: 0 0 0 1px #aebcca; }
 
 .btns {
   outline: none;
@@ -264,7 +275,7 @@ select {
       justify-content: center;
       -webkit-align-items: center;
       align-items: center;
-      background-color: #f8f9fa;
+      background-color: #8fa2b5;
       box-shadow: inset 0 0 0 2px #ffffff;
       color: #141d24;
       border-radius: 10px;
@@ -280,7 +291,7 @@ select {
           height: 35px;
           border-radius: 5px; } }
     .progress-line .stager .name {
-      color: #f8f9fa;
+      color: #8fa2b5;
       font-family: "Bariol";
       font-size: 18px;
       font-weight: 400;
@@ -301,7 +312,7 @@ select {
         background-color: #f3d405;
         box-shadow: unset; }
       .progress-line .stager.-process .name {
-        color: #ffffff;
+        color: #8fa2b5;
         font-weight: 500; }
 
 .tab-default {
@@ -398,9 +409,9 @@ select {
         opacity: 0;
         transition: all .35s ease; }
     .tab-default .tabber:nth-child(odd) {
-      background-color: #f8f9fa; }
+      background-color: #dce2e8; }
     .tab-default .tabber:hover {
-      background-color: rgba(173, 181, 189, 0.2); }
+      background-color: rgba(174, 188, 202, 0.7); }
       .tab-default .tabber:hover .radio-view:after {
         opacity: 1; }
       .tab-default .tabber:hover .tabber-image img {
@@ -417,10 +428,12 @@ select {
     .form-row > *:last-child {
       margin-bottom: 0; }
   .form-row .line {
+    padding: 0 0 4px 0;
     display: -webkit-flex;
     display: flex;
     -webkit-align-items: center;
-    align-items: center; }
+    align-items: center;
+    border-bottom: 1px solid #dce2e8; }
     .form-row .line .name {
       flex: 0 0 150px;
       width: 150px;
@@ -428,6 +441,15 @@ select {
     .form-row .line .inside {
       padding-left: 20px;
       flex: 1; }
+    .form-row .line .text {
+      font-family: "Bariol-Bold"; }
+  .form-row .line-title .title {
+    font-size: 16px;
+    font-family: "Bariol-Bold";
+    display: inline-block;
+    background-color: #dce2e8;
+    padding: 3px 7px;
+    border-radius: 5px; }
 
 .menu-layout {
   position: relative;
@@ -616,7 +638,7 @@ select {
   .special-offers .special-offer {
     color: #ffffff;
     border-radius: 5px;
-    background-color: rgba(20, 29, 36, 0.75);
+    background-color: #485a64;
     box-shadow: 0px 0px 22px 0px rgba(20, 29, 36, 0.45);
     overflow: hidden;
     position: relative; }
@@ -975,7 +997,8 @@ select {
   .content-area .content {
     background-color: #ffffff;
     border-radius: 12px;
-    position: relative; }
+    position: relative;
+    box-shadow: 0 6px 30px 1px rgba(174, 188, 202, 0.19); }
     .content-area .content .padder {
       padding: 25px; }
     .content-area .content .fullContainer {
@@ -1012,9 +1035,10 @@ select {
       justify-content: center;
       -webkit-align-items: center;
       align-items: center;
-      padding: 20px; }
+      height: 50px; }
       .content-area .platformCard .titleimage img {
-        max-width: 100%; }
+        max-width: 100%;
+        max-height: 100%; }
     .content-area .platformCard .message {
       display: -webkit-flex;
       display: flex;
@@ -1023,11 +1047,12 @@ select {
       -webkit-align-items: center;
       align-items: center;
       color: #8f8f8f;
-      font-family: Bariol;
+      font-family: "Bariol";
       font-size: 18px;
       font-weight: 400;
       letter-spacing: 1.73px;
-      line-height: 43px; }
+      line-height: 43px;
+      margin-top: 35px; }
     .content-area .platformCard .btn-area {
       padding: 20px;
       display: -webkit-flex;

@@ -4,6 +4,7 @@
     background-color: $oc-white;
     border-radius: 12px;
     position: relative;
+    box-shadow: 0 6px 30px 1px rgba(174, 188, 202, 0.19);
     //overflow: hidden;
     .padder {
       padding: 25px;
@@ -42,19 +43,22 @@
     }
     .titleimage {
       @include flex-all;
-      padding: 20px;
+      //padding: 20px;
+      height: 50px;
       img {
         max-width: 100%;
+        max-height: 100%;
       }
     }
     .message {
       @include flex-all;
       color: $color-gray;
-      font-family: Bariol;
+      font-family: $Bariol;
       font-size: 18px;
       font-weight: 400;
       letter-spacing: 1.73px;
       line-height: 43px;
+      margin-top: 35px;
     }
     .btn-area {
       padding: 20px;

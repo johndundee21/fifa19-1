@@ -20,6 +20,18 @@
     }
   }
 
+  &.btn-success {
+    color: $oc-white;
+  }
+  &.btn-warning    {
+    color: $oc-white;
+  }
+  &.btn-light {
+    background-color: $color-new-light-2;
+    &:hover {
+      box-shadow: 0 0 0 1px darken($color-new-light-2, 15%);
+    }
+  }
 }
 
 .btns {
