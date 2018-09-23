@@ -2,6 +2,7 @@
   width: 100%;
   overflow: hidden;
 }
+
 .main-slider {
   .bg-area {
     position: absolute;
@@ -43,24 +44,128 @@
   @include flex;
   @include justify-content(flex-end);
 }
-  .slider-control {
+
+.slider-control {
+  position: relative;
+  z-index: 5555;
+  @include flex;
+  @include justify-content(flex-end);
+  @include align-items(center);
+  .slider-btn {
+    padding: 5px;
+    margin: 5px;
+    @include flex-all;
+    color: #8F8F8F;
+    font-size: 26px;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    &:hover {
+      color: lighten(#8F8F8F, 8%);
+    }
+  }
+}
+
+.new-slider-area {
+  padding-top: 100px;
+  padding-bottom: 0px;
+  .box-example {
+    //@include flex-all;
+    font-size: 15px;
+    color: $oc-white;
+    padding: 5px;
+    font-family: $Bariol-Bold;
     position: relative;
-    z-index: 5555;
-    @include flex;
-    @include justify-content(flex-end);
-    @include align-items(center);
-    .slider-btn  {
-      padding: 5px;
-      margin: 5px;
+    cursor: pointer;
+    box-shadow: 0 6px 30px 1px rgba(174, 188, 202, 0.19);
+
+    .inside {
+      position: relative;
+      z-index: 5;
+      @include size(100%);
+
+      .from-bottom {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        padding: 20px;
+      }
+      .title {
+        font-size: 24px;
+      }
+      .desc {
+        line-height: 18px;
+        font-family: $Bariol;
+      }
+    }
+    .imager {
+      overflow: hidden;
+      border-radius: inherit;
+      position: absolute;
+      top: 0;
+      left: 0;
       @include flex-all;
-      color: #8F8F8F;
-      font-size: 26px;
-      background-color: transparent;
-      border: none;
-      outline: none;
-      cursor: pointer;
-      &:hover {
-        color: lighten(#8F8F8F, 8%);
+      @include size(100%);
+      img {
+        height: 100%;
+        transition: all .24s ease-in-out;
+        transform: scale(1.1);
+      }
+      &:after {
+        content: '';
+        @include size(100%);
+        background-color: rgba($color-dark, .7);
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: 2;
+        transition: all .24s ease-in-out;
+        opacity: 1;
+      }
+    }
+    &:hover {
+      .imager {
+        &:after {
+          opacity: 0;
+        }
+        img {
+          transform: scale(1);
+        }
       }
     }
   }
+  .slider-box-v {
+    height: 600px;
+    width: 100%;
+    background-color: $color-dark;
+    border-radius: 10px;
+    .imager {
+      img {
+        height: 100%;
+        width: initial;
+      }
+    }
+  }
+  .slider-half-v {
+    height: 50%;
+    width: 100%;
+    background-color: $color-new-light-2;
+    border-radius: 10px;
+    .imager {
+      img {
+        width: 100%;
+        height: auto;
+      }
+    }
+  }
+}
+
+.-divide-r {
+  > * {
+    margin-bottom: 30px;
+    &:last-child {
+      margin-bottom: 0px;
+    }
+  }
+}

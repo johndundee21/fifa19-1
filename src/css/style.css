@@ -595,6 +595,87 @@ select {
     .slider-control .slider-btn:hover {
       color: #a3a3a3; }
 
+.new-slider-area {
+  padding-top: 100px;
+  padding-bottom: 0px; }
+  .new-slider-area .box-example {
+    font-size: 15px;
+    color: #ffffff;
+    padding: 5px;
+    font-family: "Bariol-Bold";
+    position: relative;
+    cursor: pointer;
+    box-shadow: 0 6px 30px 1px rgba(174, 188, 202, 0.19); }
+    .new-slider-area .box-example .inside {
+      position: relative;
+      z-index: 5;
+      width: 100%;
+      height: 100%; }
+      .new-slider-area .box-example .inside .from-bottom {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        padding: 20px; }
+      .new-slider-area .box-example .inside .title {
+        font-size: 24px; }
+      .new-slider-area .box-example .inside .desc {
+        line-height: 18px;
+        font-family: "Bariol"; }
+    .new-slider-area .box-example .imager {
+      overflow: hidden;
+      border-radius: inherit;
+      position: absolute;
+      top: 0;
+      left: 0;
+      display: -webkit-flex;
+      display: flex;
+      -webkit-justify-content: center;
+      justify-content: center;
+      -webkit-align-items: center;
+      align-items: center;
+      width: 100%;
+      height: 100%; }
+      .new-slider-area .box-example .imager img {
+        height: 100%;
+        transition: all .24s ease-in-out;
+        transform: scale(1.1); }
+      .new-slider-area .box-example .imager:after {
+        content: '';
+        width: 100%;
+        height: 100%;
+        background-color: rgba(20, 29, 36, 0.7);
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: 2;
+        transition: all .24s ease-in-out;
+        opacity: 1; }
+    .new-slider-area .box-example:hover .imager:after {
+      opacity: 0; }
+    .new-slider-area .box-example:hover .imager img {
+      transform: scale(1); }
+  .new-slider-area .slider-box-v {
+    height: 600px;
+    width: 100%;
+    background-color: #141d24;
+    border-radius: 10px; }
+    .new-slider-area .slider-box-v .imager img {
+      height: 100%;
+      width: initial; }
+  .new-slider-area .slider-half-v {
+    height: 50%;
+    width: 100%;
+    background-color: #dce2e8;
+    border-radius: 10px; }
+    .new-slider-area .slider-half-v .imager img {
+      width: 100%;
+      height: auto; }
+
+.-divide-r > * {
+  margin-bottom: 30px; }
+  .-divide-r > *:last-child {
+    margin-bottom: 0px; }
+
 .special-offers {
   padding: 30px 0;
   margin-top: -170px;
@@ -628,9 +709,9 @@ select {
       .special-offers .control-special-offers .special-offer-btn:hover {
         color: #8f8f8f; }
       .special-offers .control-special-offers .special-offer-btn.prev-btn {
-        left: -10px; }
+        left: -50px; }
       .special-offers .control-special-offers .special-offer-btn.next-btn {
-        right: -10px; }
+        right: -50px; }
   .special-offers .special-of-list {
     padding: 0 30px; }
     .special-offers .special-of-list .col-md-6 {
@@ -751,6 +832,11 @@ select {
             padding: 20px 0 0 0; }
             .special-offers .special-offer .rank-area .text .title {
               font-size: 18px; } }
+  .special-offers.-rs {
+    margin-top: 0; }
+    .special-offers.-rs .special-of-list {
+      padding-left: 0;
+      padding-right: 0; }
 
 .news-container .news-block {
   margin: 0 0 30px 0;
@@ -1129,6 +1215,9 @@ select {
         display: block; }
     .content-area .cardBadge:hover .imager {
       opacity: 0; }
+
+.new-content-area {
+  padding: 00px 0; }
 
 .buyPager .imageView {
   width: 100%; }

@@ -2,11 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b5ba6f7b-afab-4d3a-9b2f-b75cfdf21b7c" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/index-new.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/buy_page-search.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/buy_page-search.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/buy_page-select.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/buy_page-select.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/buy_page.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/buy_page.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/contact.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/contact.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/css/maps/style.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/css/maps/style.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/css/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index_old.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/index_old.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sass/_partails/elements/layout/_container.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/sass/_partails/elements/layout/_container.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sass/_partails/elements/layout/_main-slider.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/sass/_partails/elements/layout/_main-slider.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sass/_partails/elements/layout/_special-offers.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/sass/_partails/elements/layout/_special-offers.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/sell-2.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/sell-2.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/sell-3.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/sell-3.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/sell-4.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/sell-4.html" afterDir="false" />
@@ -151,28 +158,28 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="html" value="21" />
+          <entry key="html" value="25" />
           <entry key="js" value="1" />
-          <entry key="scss" value="12" />
+          <entry key="scss" value="16" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="HTML" value="21" />
+          <entry key="HTML" value="25" />
           <entry key="JavaScript" value="1" />
-          <entry key="SCSS" value="12" />
+          <entry key="SCSS" value="16" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="html" value="552" />
-          <entry key="scss" value="460" />
+          <entry key="html" value="1078" />
+          <entry key="scss" value="1384" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="HTML" value="552" />
-          <entry key="SCSS" value="460" />
+          <entry key="HTML" value="1078" />
+          <entry key="SCSS" value="1384" />
         </counts>
       </usages-collector>
     </session>
@@ -193,23 +200,57 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/buy_page-select.html">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/index-new.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="104">
-              <caret line="47" column="28" selection-start-line="47" selection-start-column="28" selection-end-line="47" selection-end-column="28" />
+            <state relative-caret-position="179">
+              <caret line="45" column="37" selection-start-line="45" selection-start-column="37" selection-end-line="45" selection-end-column="37" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/sass/_partails/elements/layout/_main-slider.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="188">
+              <caret line="98" column="28" selection-start-line="98" selection-start-column="28" selection-end-line="98" selection-end-column="28" />
               <folding>
-                <element signature="n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+                <element signature="e#19#57#0" />
+                <element signature="e#71#682#0" />
+                <element signature="e#705#763#0" />
+                <element signature="e#782#1219#0" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/sign-up.html">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/sass/_partails/elements/layout/_container.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="389">
-              <caret line="84" column="131" selection-start-line="84" selection-start-column="131" selection-end-line="84" selection-end-column="131" />
+            <state relative-caret-position="108">
+              <caret line="6" selection-start-line="6" selection-end-line="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/sass/_partails/elements/layout/_special-offers.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="447">
+              <caret line="35" column="17" selection-start-line="35" selection-start-column="17" selection-end-line="35" selection-end-column="17" />
+              <folding>
+                <element signature="e#740#809#0" />
+                <element signature="e#827#3367#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/contact.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="366">
+              <caret line="85" lean-forward="true" selection-start-line="85" selection-end-line="85" />
               <folding>
                 <element signature="n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
               </folding>
@@ -221,15 +262,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>flex -ac headflex</find>
-      <find>menu-layout</find>
-      <find>#ADB5BD</find>
-      <find>menu-btn</find>
-      <find>log-in-btn</find>
-      <find>141d24</find>
-      <find>303e48</find>
-      <find>#141d24</find>
-      <find>f8f9fa</find>
       <find>white</find>
       <find>-white</find>
       <find>head</find>
@@ -249,8 +281,17 @@
       <find>&lt;li class=&quot;signup&quot;&gt;&lt;a href=&quot;javascript:;&quot;&gt;&lt;b&gt;Sign up&lt;/b&gt;&lt;/a&gt;&lt;/li&gt;</find>
       <find>&lt;a href=&quot;javascript:;&quot; class=&quot;log-in-btn&quot;&gt;&lt;b&gt;LOG IN&lt;/b&gt;&lt;/a&gt;</find>
       <find>&lt;a href=&quot;javascript:;&quot; class=&quot;sign-up-btn&quot;&gt;&lt;i class=&quot;fas fa-user-plus&quot;&gt;&lt;/i&gt;&lt;b&gt;SIGN UP&lt;/b&gt;&lt;/a&gt;</find>
-      <find>log in</find>
       <find>form-gr</find>
+      <find>log in</find>
+      <find>lorem</find>
+      <find>.special-offers</find>
+      <find>list</find>
+      <find>special-offers</find>
+      <find>spec</find>
+      <find>new-slider</find>
+      <find>box-shadow</find>
+      <find>BUY FIFA COINS FOR PLAYSTATION 4</find>
+      <find>&lt;li&gt;&lt;a href=&quot;./contact.html&quot;&gt;Contact&lt;/a&gt;&lt;/li&gt;</find>
     </findStrings>
     <replaceStrings>
       <replace>jumbotron</replace>
@@ -259,6 +300,7 @@
       <replace>&lt;li class=&quot;signup&quot;&gt;&lt;a href=&quot;./sign-up.html&quot;&gt;&lt;b&gt;Sign up&lt;/b&gt;&lt;/a&gt;&lt;/li&gt;</replace>
       <replace>&lt;a href=&quot;./sign-in.html&quot; class=&quot;log-in-btn&quot;&gt;&lt;b&gt;LOG IN&lt;/b&gt;&lt;/a&gt;</replace>
       <replace>&lt;a href=&quot;./sign-up.html&quot; class=&quot;sign-up-btn&quot;&gt;&lt;i class=&quot;fas fa-user-plus&quot;&gt;&lt;/i&gt;&lt;b&gt;SIGN UP&lt;/b&gt;&lt;/a&gt;</replace>
+      <replace>&lt;li&gt;&lt;a href=&quot;./contact.html&quot;&gt;Contact&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;./index-new.html&quot;&gt;V 2.0&lt;/a&gt;&lt;/li&gt;</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -267,8 +309,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/app/sass/lib/fontawsome/_variables.scss" />
-        <option value="$PROJECT_DIR$/app/sass/_partails/elements/layout/_fullLayout.scss" />
         <option value="$PROJECT_DIR$/app/sass/_partails/_theme/_main.scss" />
         <option value="$PROJECT_DIR$/app/sass/_partails/components/buttons/_button.scss" />
         <option value="$PROJECT_DIR$/app/sass/_partails/elements/layout/_headline.scss" />
@@ -311,12 +351,15 @@
         <option value="$PROJECT_DIR$/src/sass/_partails/elements/_tabber-default.scss" />
         <option value="$PROJECT_DIR$/src/sell-2.html" />
         <option value="$PROJECT_DIR$/src/sell-3.html" />
-        <option value="$PROJECT_DIR$/src/sass/_partails/elements/layout/_special-offers.scss" />
-        <option value="$PROJECT_DIR$/src/sass/_partails/elements/layout/_container.scss" />
         <option value="$PROJECT_DIR$/src/buy_page-search.html" />
         <option value="$PROJECT_DIR$/src/index.html" />
         <option value="$PROJECT_DIR$/src/buy_page-select.html" />
         <option value="$PROJECT_DIR$/src/sign-up.html" />
+        <option value="$PROJECT_DIR$/src/sass/_partails/elements/layout/_special-offers.scss" />
+        <option value="$PROJECT_DIR$/src/sass/_partails/elements/layout/_container.scss" />
+        <option value="$PROJECT_DIR$/src/sass/_partails/elements/layout/_main-slider.scss" />
+        <option value="$PROJECT_DIR$/src/contact.html" />
+        <option value="$PROJECT_DIR$/src/index-new.html" />
       </list>
     </option>
   </component>
@@ -379,7 +422,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="SearchEverywhereHistoryKey" value="sign&#9;FILE&#9;file:///Users/space/Desktop/Development/Projects/fifa19/src/sign-up.html&#10;pagese&#9;FILE&#9;file:///Users/space/Desktop/Development/Projects/fifa19/src/buy_page-search.html&#10;contain&#9;FILE&#9;file:///Users/space/Desktop/Development/Projects/fifa19/src/sass/_partails/elements/layout/_container.scss&#10;specialo&#9;FILE&#9;file:///Users/space/Desktop/Development/Projects/fifa19/src/sass/_partails/elements/layout/_special-offers.scss&#10;b&#9;FILE&#9;file:///Users/space/Desktop/Development/Projects/fifa19/src/sass/_partails/components/buttons/_button.scss&#10;tabber&#9;FILE&#9;file:///Users/space/Desktop/Development/Projects/fifa19/src/sass/_partails/elements/_tabber-default.scss&#10;button&#9;FILE&#9;file:///Users/space/Desktop/Development/Projects/fifa19/src/sass/_partails/components/buttons/_button.scss&#10;setup&#9;FILE&#9;file:///Users/space/Desktop/Development/Projects/fifa19/src/sass/_partails/_theme/_setup.scss&#10;varoa&#9;null&#9;null&#10;main&#9;FILE&#9;file:///Users/space/Desktop/Development/Projects/fifa19/src/sass/_partails/_theme/_main.scss&#10;fonts&#9;FILE&#9;file:///Users/space/Desktop/Development/Projects/fifa19/src/sass/_partails/_theme/_base/set/_fonts.scss&#10;var&#9;FILE&#9;file:///Users/space/Desktop/Development/Projects/fifa19/src/sass/_partails/_variable.scss&#10;.titlei&#9;null&#9;null&#10;input&#9;FILE&#9;file://E:/Workflow (web)/Projects/fifa19/layout/fifa19/src/sass/_partails/components/inputs&#10;signi&#9;FILE&#9;file://E:/Workflow (web)/Projects/fifa19/layout/fifa19/src/sign-in.html&#10;footerla&#9;FILE&#9;file://E:/Workflow (web)/Projects/fifa19/layout/fifa19/src/sass/_partails/elements/layout/_footer-layout.scss&#10;container&#9;FILE&#9;file://E:/Workflow (web)/Projects/fifa19/layout/fifa19/src/sass/_partails/elements/layout/_container.scss&#10;classe&#9;FILE&#9;file://E:/Workflow (web)/Projects/fifa19/layout/fifa19/src/sass/_partails/_theme/_classes.scss&#10;menulay&#9;FILE&#9;file://E:/Workflow (web)/Projects/fifa19/layout/fifa19/src/sass/_partails/elements/layout/_menuLayout.scss&#10;font&#9;FILE&#9;file://E:/Workflow (web)/Projects/fifa19/layout/fifa19/src/sass/lib/fontawsome/_fontawesome.scss&#10;classes&#9;FILE&#9;file://E:/Workflow (web)/Projects/fifa19/layout/fifa19/src/sass/_partails/_theme/_classes.scss&#10;tables&#9;FILE&#9;file://E:/Workflow (web)/Projects/fifa19/layout/fifa19/src/sass/lib/bootstrap/_tables.scss&#10;boots&#9;FILE&#9;file://E:/Workflow (web)/Projects/fifa19/layout/fifa19/src/sass/_partails/elements/_bootstrap_modification.scss&#10;conta&#9;FILE&#9;file://E:/Workflow (web)/Projects/fifa19/layout/fifa19/src/sass/_partails/elements/layout/_container.scss&#10;headline&#9;FILE&#9;file://E:/Workflow (web)/Projects/fifa19/layout/fifa19/src/sass/_partails/elements/layout/_headline.scss&#10;class&#9;FILE&#9;file://E:/Workflow (web)/Projects/fifa19/layout/app/sass/_partails/_theme/_classes.scss" />
+    <property name="SearchEverywhereHistoryKey" value="specia&#9;FILE&#9;file:///Users/space/Desktop/Development/Projects/fifa19/src/sass/_partails/elements/layout/_special-offers.scss&#10;contain&#9;FILE&#9;file:///Users/space/Desktop/Development/Projects/fifa19/src/sass/_partails/elements/layout/_container.scss&#10;var&#9;FILE&#9;file:///Users/space/Desktop/Development/Projects/fifa19/src/sass/_partails/_variable.scss&#10;slider-area&#9;null&#9;null&#10;sign&#9;FILE&#9;file:///Users/space/Desktop/Development/Projects/fifa19/src/sign-up.html&#10;pagese&#9;FILE&#9;file:///Users/space/Desktop/Development/Projects/fifa19/src/buy_page-search.html&#10;specialo&#9;FILE&#9;file:///Users/space/Desktop/Development/Projects/fifa19/src/sass/_partails/elements/layout/_special-offers.scss&#10;b&#9;FILE&#9;file:///Users/space/Desktop/Development/Projects/fifa19/src/sass/_partails/components/buttons/_button.scss&#10;tabber&#9;FILE&#9;file:///Users/space/Desktop/Development/Projects/fifa19/src/sass/_partails/elements/_tabber-default.scss&#10;button&#9;FILE&#9;file:///Users/space/Desktop/Development/Projects/fifa19/src/sass/_partails/components/buttons/_button.scss&#10;setup&#9;FILE&#9;file:///Users/space/Desktop/Development/Projects/fifa19/src/sass/_partails/_theme/_setup.scss&#10;varoa&#9;null&#9;null&#10;main&#9;FILE&#9;file:///Users/space/Desktop/Development/Projects/fifa19/src/sass/_partails/_theme/_main.scss&#10;fonts&#9;FILE&#9;file:///Users/space/Desktop/Development/Projects/fifa19/src/sass/_partails/_theme/_base/set/_fonts.scss&#10;.titlei&#9;null&#9;null&#10;input&#9;FILE&#9;file://E:/Workflow (web)/Projects/fifa19/layout/fifa19/src/sass/_partails/components/inputs&#10;signi&#9;FILE&#9;file://E:/Workflow (web)/Projects/fifa19/layout/fifa19/src/sign-in.html&#10;footerla&#9;FILE&#9;file://E:/Workflow (web)/Projects/fifa19/layout/fifa19/src/sass/_partails/elements/layout/_footer-layout.scss&#10;container&#9;FILE&#9;file://E:/Workflow (web)/Projects/fifa19/layout/fifa19/src/sass/_partails/elements/layout/_container.scss&#10;classe&#9;FILE&#9;file://E:/Workflow (web)/Projects/fifa19/layout/fifa19/src/sass/_partails/_theme/_classes.scss&#10;menulay&#9;FILE&#9;file://E:/Workflow (web)/Projects/fifa19/layout/fifa19/src/sass/_partails/elements/layout/_menuLayout.scss&#10;font&#9;FILE&#9;file://E:/Workflow (web)/Projects/fifa19/layout/fifa19/src/sass/lib/fontawsome/_fontawesome.scss&#10;classes&#9;FILE&#9;file://E:/Workflow (web)/Projects/fifa19/layout/fifa19/src/sass/_partails/_theme/_classes.scss&#10;tables&#9;FILE&#9;file://E:/Workflow (web)/Projects/fifa19/layout/fifa19/src/sass/lib/bootstrap/_tables.scss&#10;boots&#9;FILE&#9;file://E:/Workflow (web)/Projects/fifa19/layout/fifa19/src/sass/_partails/elements/_bootstrap_modification.scss&#10;conta&#9;FILE&#9;file://E:/Workflow (web)/Projects/fifa19/layout/fifa19/src/sass/_partails/elements/layout/_container.scss&#10;headline&#9;FILE&#9;file://E:/Workflow (web)/Projects/fifa19/layout/fifa19/src/sass/_partails/elements/layout/_headline.scss&#10;class&#9;FILE&#9;file://E:/Workflow (web)/Projects/fifa19/layout/app/sass/_partails/_theme/_classes.scss" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -390,11 +433,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src" />
       <recent name="$PROJECT_DIR$/src/sets/fonts/Braiol" />
       <recent name="E:\Workflow (web)\Projects\fifa19\layout\fifa19\src" />
       <recent name="E:\Workflow (web)\Projects\fifa19\layout\fifa19" />
       <recent name="E:\Workflow (web)\Projects\fifa19\layout\app" />
-      <recent name="E:\Workflow (web)\Projects\fifa19\layout\app\sass\lib\fontawsome" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -425,12 +468,12 @@
       <workItem from="1534517043392" duration="52000" />
       <workItem from="1536747818238" duration="167000" />
       <workItem from="1536748116093" duration="15342000" />
-      <workItem from="1537714747666" duration="4401000" />
+      <workItem from="1537714747666" duration="7723000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="42585000" />
+    <option name="totallyTimeSpent" value="45907000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="22" width="1680" height="970" extended-state="6" />
@@ -463,18 +506,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/sass/_partails/elements/_bootstrap_modification.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="18" column="3" selection-start-line="18" selection-start-column="3" selection-end-line="18" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/sass/lib/bootstrap/_tables.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2906" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/sass/lib/fontawsome/_v4-shims.scss" />
     <entry file="file://$PROJECT_DIR$/src/sass/lib/fontawsome/_bordered-pulled.scss">
       <provider selected="true" editor-type-id="text-editor" />
@@ -583,9 +614,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/contact.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/sell.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
@@ -663,13 +691,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/sass/_partails/_variable.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="22" column="21" selection-start-line="22" selection-start-column="21" selection-end-line="22" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/sass/_partails/components/buttons/_button.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="510">
@@ -720,27 +741,33 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/sass/_partails/elements/layout/_special-offers.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="276">
-          <caret line="47" column="43" selection-start-line="47" selection-start-column="43" selection-end-line="47" selection-end-column="43" />
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/src/index_old.html">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/sass/_partails/elements/layout/_container.scss">
+    <entry file="file://$PROJECT_DIR$/src/sign-up.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="13" column="39" selection-start-line="13" selection-start-column="39" selection-end-line="13" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/buy_page-search.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="84" column="58" selection-start-line="84" selection-start-column="58" selection-end-line="84" selection-end-column="58" />
+        <state relative-caret-position="389">
+          <caret line="84" column="131" selection-start-line="84" selection-start-column="131" selection-end-line="84" selection-end-column="131" />
           <folding>
             <element signature="n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/buy_page-select.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="104">
+          <caret line="47" column="28" selection-start-line="47" selection-start-column="28" selection-end-line="47" selection-end-column="28" />
+          <folding>
+            <element signature="n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sass/_partails/_variable.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="18" column="11" selection-start-line="18" selection-end-line="18" selection-end-column="11" />
         </state>
       </provider>
     </entry>
@@ -756,26 +783,61 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/index_old.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/buy_page-select.html">
+    <entry file="file://$PROJECT_DIR$/src/sass/_partails/elements/layout/_container.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="104">
-          <caret line="47" column="28" selection-start-line="47" selection-start-column="28" selection-end-line="47" selection-end-column="28" />
+        <state relative-caret-position="108">
+          <caret line="6" selection-start-line="6" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sass/_partails/elements/layout/_main-slider.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="188">
+          <caret line="98" column="28" selection-start-line="98" selection-start-column="28" selection-end-line="98" selection-end-column="28" />
+          <folding>
+            <element signature="e#19#57#0" />
+            <element signature="e#71#682#0" />
+            <element signature="e#705#763#0" />
+            <element signature="e#782#1219#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/buy_page-search.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="86" column="48" lean-forward="true" selection-end-line="231" />
           <folding>
             <element signature="n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/sign-up.html">
+    <entry file="file://$PROJECT_DIR$/src/sass/_partails/elements/layout/_special-offers.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="389">
-          <caret line="84" column="131" selection-start-line="84" selection-start-column="131" selection-end-line="84" selection-end-column="131" />
+        <state relative-caret-position="447">
+          <caret line="35" column="17" selection-start-line="35" selection-start-column="17" selection-end-line="35" selection-end-column="17" />
+          <folding>
+            <element signature="e#740#809#0" />
+            <element signature="e#827#3367#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/contact.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="366">
+          <caret line="85" lean-forward="true" selection-start-line="85" selection-end-line="85" />
           <folding>
             <element signature="n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/index-new.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="179">
+          <caret line="45" column="37" selection-start-line="45" selection-start-column="37" selection-end-line="45" selection-end-column="37" />
         </state>
       </provider>
     </entry>
