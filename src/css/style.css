@@ -210,6 +210,8 @@ body {
 
 .btn.btn-warning {
   color: #ffffff; }
+  .btn.btn-warning:hover {
+    color: #ffffff; }
 
 .btn.btn-light {
   background-color: #dce2e8; }
@@ -596,7 +598,7 @@ select {
       color: #a3a3a3; }
 
 .new-slider-area {
-  padding-top: 80px;
+  padding-top: 60px;
   padding-bottom: 0px; }
   .new-slider-area .slider-area {
     padding-top: 20px;
@@ -1228,7 +1230,7 @@ select {
       opacity: 0; }
 
 .new-content-area {
-  padding: 00px 0; }
+  padding: 0px 0; }
 
 .buyPager .imageView {
   width: 100%; }

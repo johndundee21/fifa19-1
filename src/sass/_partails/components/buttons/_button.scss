@@ -25,6 +25,9 @@
   }
   &.btn-warning    {
     color: $oc-white;
+    &:hover {
+      color: $oc-white;
+    }
   }
   &.btn-light {
     background-color: $color-new-light-2;
