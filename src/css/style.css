@@ -183,6 +183,10 @@ br {
 .divide-o-6 > * {
   margin: 6px; }
 
+.small-padds > * {
+  padding-left: 10px !important;
+  padding-right: 10px !important; }
+
 body {
   background-color: #f0f4f7 !important; }
 
