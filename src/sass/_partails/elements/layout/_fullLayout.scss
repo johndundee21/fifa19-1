@@ -10,3 +10,16 @@
 .form-drop {
   margin-bottom: -20px;
 }
+
+.headline-divide {
+  padding-top: 100px !important;
+}
+
+.-divider {
+  > * {
+    margin-bottom: 20px;
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+}
