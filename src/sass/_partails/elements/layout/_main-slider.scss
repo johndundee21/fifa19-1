@@ -72,18 +72,81 @@ $slider-min-height: 600;
 .new-slider-area {
   padding-top: 60px;
   padding-bottom: 0px;
+  margin-bottom: 20px;
 
   .slider-area {
     padding-top: 20px;
     padding-bottom: 20px;
     flex: 1;
+    height: 100%;
+    &.slick {
+      width: 100%;
+    }
+    .slick-list, .slick-track {
+      height: 100% !important;
+      border-radius: 10px;
+      overflow: hidden;
+    }
   }
   .new-slider {
     height: $slider-min-height + px;
   }
+  .slider-dots {
+    @include flex;
+    margin: 10px 0;
+    @include flex-wrap(wrap);
+
+    li {
+      margin: 5px;
+      @include flex-all;
+      @include size(12px);
+      button {
+        outline: none;
+        border: none;
+        border-radius: 100%;
+        width: 12px;
+        height: 14px;
+        @include flex-all;
+        background-color: $color-gray-3;
+        font-size: 0px;
+        cursor: pointer;
+        &:hover {
+          background-color: $color-dark;
+        }
+      }
+      &.slick-active {
+        button {
+          background-color: $color-blue;
+        }
+      }
+    }
+  }
   .slider-box {
     height: 100%;
-    padding: 10px;
+    padding: 10px 0;
+    outline: none;
+    &:first-child {
+      padding-top: 0px;
+    }
+    &:last-child {
+      padding-bottom: 0px;
+    }
+    &.slick {
+      .box-example {
+      }
+    }
+    &.-btn-type {
+      .inside {
+        @include flex-all;
+        .center {
+          text-align: center;
+        }
+        .title {
+          font-size: 28px;
+          text-align: center;
+        }
+      }
+    }
   }
 
   .box-example {
@@ -150,11 +213,17 @@ $slider-min-height: 600;
       }
     }
   }
+  .new-type-slick-slider {
+    padding: 0px;
+  }
   .slider-box-v {
     height: 100%;
     width: 100%;
     background-color: $color-dark;
     border-radius: 10px;
+    outline: none;
+    margin: 0 5px;
+
     .imager {
       img {
         height: 100%;
