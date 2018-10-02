@@ -121,3 +121,9 @@
 br {
   font-size: 0;
 }
+
+.divide-o-6 {
+  > * {
+    margin: 6px;
+  }
+}
