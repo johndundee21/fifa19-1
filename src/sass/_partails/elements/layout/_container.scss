@@ -104,6 +104,11 @@
         padding: 20px;
         @include flex-all;
       }
+      .btn {
+        &.btn-dark {
+          color: $oc-white;
+        }
+      }
     }
 
   }

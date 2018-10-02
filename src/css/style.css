@@ -1218,6 +1218,8 @@ select {
       justify-content: center;
       -webkit-align-items: center;
       align-items: center; }
+    .content-area .chooseCards .chooseCard .btn.btn-dark {
+      color: #ffffff; }
   .content-area .cardBadges {
     padding: 30px 15px; }
   .content-area .cardBadge {
