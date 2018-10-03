@@ -187,6 +187,9 @@ br {
   padding-left: 10px !important;
   padding-right: 10px !important; }
 
+.-reset-p-t {
+  padding-top: 0 !important; }
+
 body {
   background-color: #f0f4f7 !important; }
 
