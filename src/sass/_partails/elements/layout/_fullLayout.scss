@@ -23,3 +23,31 @@
     }
   }
 }
+
+.splashs {
+  .splash {
+    width: 150px;
+    @include select(none);
+    img {
+      width: 100%;
+    }
+    &.top {
+      position: absolute;
+      top: 13%;
+      left: 8%;
+      width: 450px;
+      @include max-min(max $size-tablet) {
+        width: 100%;
+      }
+    }
+    &.rright {
+      position: absolute;
+      top: 65%;
+      right: 7%;
+      width: 420px;
+      @include max-min(max $size-tablet) {
+        width: 100%;
+      }
+    }
+  }
+}

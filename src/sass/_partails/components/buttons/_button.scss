@@ -23,11 +23,29 @@
   &.btn-success {
     color: $oc-white;
   }
-  &.btn-warning    {
+  &.btn-warning {
     color: $oc-white;
+    background-color: $color-pink;
+    border-color: darken($color-pink, 6%);
     &:hover {
       color: $oc-white;
+      background-color: darken($color-pink, 6%);
+      border-color: darken($color-pink, 6%);
     }
+    &:active {
+      color: $oc-white !important;
+      background-color: $color-pink !important;
+      border-color: darken($color-pink, 6%) !important;
+    }
+    &:focus {
+      color: $oc-white !important;
+      background-color: $color-pink !important;
+      border-color: darken($color-pink, 6%) !important;
+      box-shadow: 0 0 0 2px rgba($color-pink, .25) !important;
+    }
+  }
+  &.btn-buy {
+    background-color: $color-pink;
   }
   &.btn-light {
     background-color: $color-new-light-2;

@@ -1,5 +1,17 @@
 $slider-min-height: 600;
+@keyframes fadeIn {
+  0% {
+    opacity: 0
+  }
 
+  to {
+    opacity: 1
+  }
+}
+
+.fadeIn {
+  animation-name: fadeIn
+}
 .main-slider-slick {
   width: 100%;
   overflow: hidden;
@@ -105,7 +117,7 @@ $slider-min-height: 600;
         border: none;
         border-radius: 100%;
         width: 12px;
-        height: 14px;
+        height: 12px;
         @include flex-all;
         background-color: $color-gray-3;
         font-size: 0px;
@@ -125,17 +137,23 @@ $slider-min-height: 600;
     height: 100%;
     padding: 10px 0;
     outline: none;
+
     &:first-child {
       padding-top: 0px;
     }
+
     &:last-child {
       padding-bottom: 0px;
     }
+
     &.slick {
       .box-example {
       }
     }
+
     &.-btn-type {
+      height: initial;
+      flex: 1;
       .inside {
         @include flex-all;
         .center {
@@ -158,6 +176,8 @@ $slider-min-height: 600;
     position: relative;
     cursor: pointer;
     box-shadow: 0 6px 30px 1px rgba(174, 188, 202, 0.19);
+    overflow: hidden;
+
     .inside {
       position: relative;
       z-index: 5;
@@ -215,6 +235,7 @@ $slider-min-height: 600;
   }
   .new-type-slick-slider {
     padding: 0px;
+    animation: fadeIn 0.5s 6s ease;
   }
   .slider-box-v {
     height: 100%;
