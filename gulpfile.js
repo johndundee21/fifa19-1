@@ -59,6 +59,8 @@ gulp.task('serve', ['sass', 'nodemon'], function() {
 // default start function
 gulp.task('start', function() {
   console.log('Project is starting...');
+  
+  
 });
 
 // Default Task
